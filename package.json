@@ -1,0 +1,19 @@
+{
+  "name": "my-blog-app",
+  "version": "1.0.0",
+  "description": "Mini blog app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drashtipatel2503/my-blog-app.git"
+  },
+  "author": "Drashti Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drashtipatel2503/my-blog-app/issues"
+  },
+  "homepage": "https://github.com/drashtipatel2503/my-blog-app#readme"
+}
