@@ -1,0 +1,24 @@
+<div class="container">
+  
+    <form action=" " method='POST'>
+        <div class="form-group">
+        <h3>I am a new User</h3><br><br>
+        <div class="form-outlone mb-4">
+            <label>Name</label> <br>         
+            <input type="text" name="name" [(ngModel)]="user.name" class="form-control" placeholder="Name"/>
+          </div>
+        <div class="form-outlone mb-4">
+          <label>Email</label> <br>         
+          <input type="email" name="email" [(ngModel)]="user.email" class="form-control" placeholder="Email"/>
+        </div>
+        <div class="form-outlone mb-4">
+            <label>Password</label>         <br>       
+            <input type="password" name="password" [(ngModel)]="user.password" class="form-control" placeholder="Password"/>
+        </div>
+        <button class="btn" (click)="saveUser()" name="submit">Register</button><br>
+        <br>
+        <br>
+      </div>   
+        </form>
+     
+        </div>

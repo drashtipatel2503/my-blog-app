@@ -1,0 +1,25 @@
+
+<div class="row">
+    
+    <div class="container">
+        <form action=" " method='POST'>
+
+            <h3>I am an enthusiastic thinker</h3><br><br>
+            <div class="form-outlone mb-4">
+              <label>Ttitle</label> <br>         
+              <input type="text" name="title" [(ngModel)]="blog.title"  class="form-control" placeholder="Title"/>
+            </div>
+            <div class="form-outlone mb-4">
+                <label>Content</label>         <br>       
+                <textarea name="content" [(ngModel)]="blog.content" class="form-control"></textarea>
+            </div>
+            <button class="btn" name="submit" (click)="addblog()">Post</button><br>
+            <br>
+            <br>
+            <br>
+            <br>
+            </form>
+                
+            </div>
+        </div>
+

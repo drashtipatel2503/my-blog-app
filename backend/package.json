@@ -1,0 +1,26 @@
+{
+  "name": "my-blog-app",
+  "version": "1.0.0",
+  "description": "Mini blog app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drashtipatel2503/my-blog-app.git"
+  },
+  "author": "Drashti Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drashtipatel2503/my-blog-app/issues"
+  },
+  "homepage": "https://github.com/drashtipatel2503/my-blog-app#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.5"
+  }
+}

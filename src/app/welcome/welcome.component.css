@@ -1,0 +1,20 @@
+table{
+    width:60%;
+    margin-left: 20%;
+
+}
+
+td{
+    
+    margin:1%;
+    align-items: center;
+    width:80%;
+    padding:1%;
+    height:2em;
+    color:blueviolet;
+    
+}
+thead td{
+    margin-left:-2em;
+    font-size: 150%;
+}
